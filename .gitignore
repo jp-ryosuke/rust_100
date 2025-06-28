@@ -1,3 +1,5 @@
 target/
 exercises/progress.db
 .cache/*
+.cache
+.cache.type

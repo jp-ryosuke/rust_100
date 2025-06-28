@@ -1,6 +1,6 @@
 FROM rust:latest
 
-RUN apt-get update && apt install -y sudo wget git clang \
+RUN apt-get update && apt-get install -y sudo wget git clang \
   && rm -rf /var/lib/apt/lists/*
 
 RUN wget https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-x86_64-unknown-linux-gnu.tgz -O - \

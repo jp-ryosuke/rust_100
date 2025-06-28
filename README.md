@@ -11,7 +11,7 @@
 ## コンテナのビルドと起動
 全部WSL上で
  - clone
-    `git clone https://github.com/waneen/rust_100.git`
+    `git clone https://github.com/jp-ryosuke/rust_100`
  - 移動
     `cd rust_100`
  - コンテナのビルドと起動

@@ -1,9 +1,8 @@
-version: '3.2'
-
+version: "3.2"
 services:
   rust:
     build: ./.docker
-    container_name: 'rust_100'
+    container_name: "rust_100"
     volumes:
       - type: bind
         source: .
